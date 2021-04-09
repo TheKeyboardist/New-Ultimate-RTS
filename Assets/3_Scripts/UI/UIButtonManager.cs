@@ -56,7 +56,7 @@ public class UIButtonManager : MonoBehaviour
     private IEnumerator WaitForSceneLoadPlayGame()
     {
         yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadScene("Map_Bohan");
+        SceneManager.LoadScene("Map_GamePlay");
     }
 
     public void OnButtonClickedPlay()
@@ -129,7 +129,7 @@ public class UIButtonManager : MonoBehaviour
     private IEnumerator WaitForPlayAgain()
     {
         yield return new WaitForSeconds(0.5f);
-        SceneManager.LoadScene("Map_Bohan");
+        SceneManager.LoadScene("Map_GamePlay");
         // Note* this function will not work in the editor. 
         Application.Quit();
     }

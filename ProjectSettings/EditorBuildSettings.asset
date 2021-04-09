@@ -21,6 +21,9 @@ EditorBuildSettings:
     path: Assets/2_Scenes/UIMap/Map_Options.unity
     guid: d4cbdd8e1b18ff547901d2f3861f8eca
   - enabled: 1
-    path: Assets/2_Scenes/GameMap/Map_Bohan.unity
+    path: Assets/2_Scenes/GameMap/Map_GamePlay.unity
     guid: 4cc8ba7980fa5dd49b7898e251a17539
+  - enabled: 1
+    path: Assets/2_Scenes/UIMap/Map_Win.unity
+    guid: f54065a309362e0449edc1363c8a3e6d
   m_configObjects: {}

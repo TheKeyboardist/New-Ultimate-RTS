@@ -27,8 +27,10 @@ public class ScoreManager : MonoBehaviour
     {
 
         scoreText.text = playerScore.ToString();
-        if(playerScore >= 250)
+        Debug.Log(playerScore);
+        if(playerScore >= 200)
         {
+            //Debug.Log("Trying to load Win")
             SceneManager.LoadScene("Map_Win");
         }
     }
